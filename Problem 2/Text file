@@ -1,0 +1,25 @@
+First of, the data set is stored in the bigBangTheory variable.
+
+Then we store the episode array in a variable called episodes.
+
+We declare three functions namely, get_episode_info, get_episodeById and searchByEpisodeName. 
+
+In the first function, we use a for of loop to loop through the episodes and check if the inputted season and 
+episode number match with the season number and episode number in the episodes array. x here is the individual objects from
+the episodes array.
+If  the conditions match, we store the boolean value 'true' in the episodeFound and seasonFound variables. 
+Else the boolean value 'false' is stored.
+Then we check for three different conditions and store the boolean values accordingly.
+If true, the episode info is displayed else an error message is displayed.
+
+In the second function we use two for of loops; one to loop through episodes array and the other to loop through the input id array.
+The user input array contains multiple inputs.These CSVs are converted to an array using .split().
+Also, when multiple ids are sent as arguments, we can use the REST parameters which convert the CSVs into array. 
+(Whenever there are multiple paramEters to a function, we can define an extra parameter using "..."   It stores all
+the inputs that are passed into a function into an array.)
+Then the ids are matched and the episode info corresponding to the id is displayed.
+If  unknown ids are typed, an error message is thrown.
+
+In the third function, the same approach of for of loop and if conditions are used to search for the episode name and 
+display the info.
+ 

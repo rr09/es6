@@ -1,0 +1,5 @@
+The following ES6 features have been used for the the two problems:
+1. let keyword (Block scope)
+2. const keyword
+3. Arrow function
+4. for of loop
