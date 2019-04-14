@@ -1,7 +1,6 @@
 # es6
 ## This repository contains programs using es6 
-###### The first folder consists of two problems: 
-###### Bubble Sort and Check Login.
+###### The first folder consists of two problems:  Bubble Sort and Check Login.
 
 
 ###### The second folder contains a problem that has the following statement:
